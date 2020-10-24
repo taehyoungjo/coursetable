@@ -228,7 +228,9 @@ for compressibility purposes by tools/build.php
 				</ul>
 			</li>
 
-			<li id="nav-about"><a href="#" data-toggle="modal" data-target="#about">Updated {$updated} <i class="icon-question-sign"></i></a></li>
+            <li id="nav-about"><a href="#" data-toggle="modal" data-target="#about">Updated {$updated} <i class="icon-question-sign"></i></a></li>
+
+			<li id="nav-beta"><a href="https://beta.coursetable.com">Try the new site <i class="icon-external-link"></i></a></li>
 		</ul>
 		<ul class="nav pull-right nav-right search-filter">
 			<li>
