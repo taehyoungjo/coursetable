@@ -54,6 +54,9 @@
     <link rel="icon" href="/favicon.png" type="image/png" />
     <link rel="shortcut icon" href="/favicon.png">
 
+    <!-- analytics -->
+    <script async defer data-website-id="c5761971-088c-47ee-911c-2d5429fd651d" src="https://umami.coursetable.com/umami.js"></script>
+
 {block name=extraHead}{/block}
 
 </head>
