@@ -208,6 +208,9 @@ for compressibility purposes by tools/build.php
 {include file='NoticeModal.tpl'}
 
 <div class="navbar navbar-fixed-top">
+  <div class="text-center" style="font-size: 16px; background-color: #ffb5b5; font-weight: 500; padding: 5px">
+    We will be shutting down this site on April 1st. Please check out the <a href="https://coursetable.com">updated site</a> instead!
+  </div>
 	<div class="navbar-inner">
 		<a class="brand" href="#">Course<span style="color: #92bcea">Table</span></a>
 		<ul class="nav">
@@ -279,7 +282,7 @@ for compressibility purposes by tools/build.php
 	</div>
 </div>
 
-<div class="tableContainer" style="position: fixed; height: 100%;">
+<div class="tableContainer" style="position: fixed; height: 100%; margin-top: 30px">
     <table class="dataTable table table-condensed" style="table-layout: fixed; width: 1px">
     </table>
 </div>
