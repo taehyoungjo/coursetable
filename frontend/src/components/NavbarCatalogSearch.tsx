@@ -881,6 +881,21 @@ export const NavbarCatalogSearch: React.FC = () => {
                       Hide cancelled courses
                     </ToggleLabel>
                   </Toggle>
+                  {/* Hide Discussion Sections Toggle */}
+                  <Toggle type="switch">
+                    <ToggleInput
+                      checked={hideDiscussionSections}
+                      onChange={() => {}} // dummy handler to remove warning
+                    />
+                    <ToggleLabel
+                      onClick={() => {
+                        setHideDiscussionSections(!hideDiscussionSections);
+                        setStartTime(Date.now());
+                      }}
+                    >
+                      Hide discussion sections
+                    </ToggleLabel>
+                  </Toggle>
                   {/* Hide First-Year Seminar Courses Toggle */}
                   <Toggle type="switch">
                     <ToggleInput
@@ -909,21 +924,6 @@ export const NavbarCatalogSearch: React.FC = () => {
                       }}
                     >
                       Hide graduate courses
-                    </ToggleLabel>
-                  </Toggle>
-                  {/* Hide Discussion Sections Toggle */}
-                  <Toggle type="switch">
-                    <ToggleInput
-                      checked={hideDiscussionSections}
-                      onChange={() => {}} // dummy handler to remove warning
-                    />
-                    <ToggleLabel
-                      onClick={() => {
-                        setHideDiscussionSections(!hideDiscussionSections);
-                        setStartTime(Date.now());
-                      }}
-                    >
-                      Hide discussion sections
                     </ToggleLabel>
                   </Toggle>
                 </AdvancedToggleRow>
