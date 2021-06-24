@@ -381,7 +381,6 @@ export const NavbarCatalogSearch: React.FC = () => {
   const searchbar_style = useMemo(() => {
     if (searchText) {
       return {
-        backgroundColor: globalTheme.select_hover,
         borderColor: globalTheme.primary,
       };
     }
@@ -415,7 +414,7 @@ export const NavbarCatalogSearch: React.FC = () => {
                   setSearchText(event.target.value);
                   setStartTime(Date.now());
                 }}
-                placeholder="Search by course code, title, prof, or whatever we don't really care"
+                placeholder="Search by course code, title, prof, or whatever"
                 ref={searchTextInput}
               />
             </InputGroup>
