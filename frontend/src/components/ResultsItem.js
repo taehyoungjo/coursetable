@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useMemo } from 'react';
+import React, { useState, useMemo } from 'react';
 
 import { Badge, OverlayTrigger, Popover, Tooltip, Row } from 'react-bootstrap';
 
@@ -78,7 +78,6 @@ const Tag = styled(Badge)`
  * @prop multiSeasons - boolean | are we displaying courses across multiple seasons
  * @prop isFirst - boolean | is this the first course of the results?
  * @prop COL_SPACING - object | with widths of each column
- * @prop isScrolling - boolean | is the user scrolling? if so, hide bookmark and conflict icon
  * @prop fb_friends - array | of fb friends also taking this course
  */
 
@@ -88,17 +87,8 @@ const ResultsItem = ({
   multiSeasons,
   isFirst,
   COL_SPACING,
-  isScrolling = false,
   fb_friends,
 }) => {
-  // Has the component been mounted?
-  const [mounted, setMounted] = useState(false);
-
-  // Set mounted on mount
-  useEffect(() => {
-    if (!mounted) setMounted(true);
-  }, [mounted]);
-
   // Season code for this listing
   const { season_code } = course;
   const season = season_code[5];
@@ -389,12 +379,10 @@ const ResultsItem = ({
             setCourseInWorksheet={setCourseInWorksheet}
           />
         </div>
-        {/* Render conflict icon only when component has been mounted */}
-        {mounted && !isScrolling && (
-          <div className={Styles.conflict_error}>
-            <CourseConflictIcon course={course} />
-          </div>
-        )}
+        {/* Render conflict icon */}
+        <div className={Styles.conflict_error}>
+          <CourseConflictIcon course={course} />
+        </div>
       </StyledResultsItem>
     </StyledSpacer>
   );

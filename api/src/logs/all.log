@@ -2972,3 +2972,185 @@ Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the cli
 
 2021-03-10 01:52:46:5246 http: GET /legacy_api/WorksheetActions.php?action=get&season=all 200 - - 35.938 ms
 
+{"message":"Updating static catalog","level":"info","timestamp":"2021-06-24 16:18:47:1847"}
+{"message":"Secure dev proxy listening on port 3001","level":"info","timestamp":"2021-06-24 16:18:47:1847"}
+{"message":"Fetched 38 seasons","level":"info","timestamp":"2021-06-24 16:18:47:1847"}
+{"message":"Catalog for 200903 exists, skipping","level":"info","timestamp":"2021-06-24 16:18:47:1847"}
+{"message":"Catalog for 201001 exists, skipping","level":"info","timestamp":"2021-06-24 16:18:47:1847"}
+{"message":"Catalog for 201002 exists, skipping","level":"info","timestamp":"2021-06-24 16:18:47:1847"}
+{"message":"Catalog for 201003 exists, skipping","level":"info","timestamp":"2021-06-24 16:18:47:1847"}
+{"message":"Catalog for 201101 exists, skipping","level":"info","timestamp":"2021-06-24 16:18:47:1847"}
+{"message":"Catalog for 201102 exists, skipping","level":"info","timestamp":"2021-06-24 16:18:47:1847"}
+{"message":"Catalog for 201103 exists, skipping","level":"info","timestamp":"2021-06-24 16:18:47:1847"}
+{"message":"Catalog for 201201 exists, skipping","level":"info","timestamp":"2021-06-24 16:18:47:1847"}
+{"message":"Catalog for 201202 exists, skipping","level":"info","timestamp":"2021-06-24 16:18:47:1847"}
+{"message":"Catalog for 201203 exists, skipping","level":"info","timestamp":"2021-06-24 16:18:47:1847"}
+{"message":"Catalog for 201301 exists, skipping","level":"info","timestamp":"2021-06-24 16:18:47:1847"}
+{"message":"Catalog for 201302 exists, skipping","level":"info","timestamp":"2021-06-24 16:18:47:1847"}
+{"message":"Catalog for 201303 exists, skipping","level":"info","timestamp":"2021-06-24 16:18:47:1847"}
+{"message":"Catalog for 201401 exists, skipping","level":"info","timestamp":"2021-06-24 16:18:47:1847"}
+{"message":"Catalog for 201402 exists, skipping","level":"info","timestamp":"2021-06-24 16:18:47:1847"}
+{"message":"Catalog for 201403 exists, skipping","level":"info","timestamp":"2021-06-24 16:18:47:1847"}
+{"message":"Catalog for 201501 exists, skipping","level":"info","timestamp":"2021-06-24 16:18:47:1847"}
+{"message":"Catalog for 201502 exists, skipping","level":"info","timestamp":"2021-06-24 16:18:47:1847"}
+{"message":"Catalog for 201503 exists, skipping","level":"info","timestamp":"2021-06-24 16:18:47:1847"}
+{"message":"Catalog for 201601 exists, skipping","level":"info","timestamp":"2021-06-24 16:18:47:1847"}
+{"message":"Catalog for 201602 exists, skipping","level":"info","timestamp":"2021-06-24 16:18:47:1847"}
+{"message":"Catalog for 201603 exists, skipping","level":"info","timestamp":"2021-06-24 16:18:47:1847"}
+{"message":"Catalog for 201701 exists, skipping","level":"info","timestamp":"2021-06-24 16:18:47:1847"}
+{"message":"Catalog for 201702 exists, skipping","level":"info","timestamp":"2021-06-24 16:18:47:1847"}
+{"message":"Catalog for 201703 exists, skipping","level":"info","timestamp":"2021-06-24 16:18:47:1847"}
+{"message":"Catalog for 201801 exists, skipping","level":"info","timestamp":"2021-06-24 16:18:47:1847"}
+{"message":"Catalog for 201802 exists, skipping","level":"info","timestamp":"2021-06-24 16:18:47:1847"}
+{"message":"Catalog for 201803 exists, skipping","level":"info","timestamp":"2021-06-24 16:18:47:1847"}
+{"message":"Catalog for 201901 exists, skipping","level":"info","timestamp":"2021-06-24 16:18:48:1848"}
+{"message":"Catalog for 201902 exists, skipping","level":"info","timestamp":"2021-06-24 16:18:48:1848"}
+{"message":"Catalog for 201903 exists, skipping","level":"info","timestamp":"2021-06-24 16:18:48:1848"}
+{"message":"Catalog for 202001 exists, skipping","level":"info","timestamp":"2021-06-24 16:18:48:1848"}
+{"message":"Catalog for 202002 exists, skipping","level":"info","timestamp":"2021-06-24 16:18:48:1848"}
+{"message":"Catalog for 202003 exists, skipping","level":"info","timestamp":"2021-06-24 16:18:48:1848"}
+{"message":"Catalog for 202101 exists, skipping","level":"info","timestamp":"2021-06-24 16:18:48:1848"}
+{"message":"Catalog for 202102 exists, skipping","level":"info","timestamp":"2021-06-24 16:18:48:1848"}
+{"message":"Catalog for 202103 exists, skipping","level":"info","timestamp":"2021-06-24 16:18:48:1848"}
+{"message":"Catalog for 202201 exists, skipping","level":"info","timestamp":"2021-06-24 16:18:48:1848"}
+{"message":"Insecure API listening on port 4096","level":"info","timestamp":"2021-06-24 16:18:48:1848"}
+{"message":"Fetching user's worksheets","level":"info","timestamp":"2021-06-24 16:21:35:2135"}
+{"message":"Fetching Facebook friends' worksheets","level":"info","timestamp":"2021-06-24 16:21:35:2135"}
+{"message":"GET /api/user/worksheets 401 - - 15.758 ms\n","level":"http","timestamp":"2021-06-24 16:21:35:2135"}
+{"message":"GET /api/facebook/worksheets 401 - - 16.084 ms\n","level":"http","timestamp":"2021-06-24 16:21:35:2135"}
+{"message":"Logging in with CAS","level":"info","timestamp":"2021-06-24 16:22:38:2238"}
+{"message":"GET /api/auth/cas?redirect=https://localhost:3000/catalog 302 0 - 10.933 ms\n","level":"http","timestamp":"2021-06-24 16:22:38:2238"}
+{"message":"Logging in with CAS","level":"info","timestamp":"2021-06-24 16:22:38:2238"}
+{"message":"Creating user's profile","level":"info","timestamp":"2021-06-24 16:22:38:2238"}
+{"message":"Getting user's enrollment status from Yalies.io","level":"info","timestamp":"2021-06-24 16:22:39:2239"}
+{"message":"Updating evaluations for clt38","level":"info","timestamp":"2021-06-24 16:22:39:2239"}
+{"message":"\"Logging in [object Object]","level":"info","timestamp":"2021-06-24 16:22:39:2239"}
+{"message":"Serializing user [object Object]","level":"info","timestamp":"2021-06-24 16:22:39:2239"}
+{"message":"Executing post-authentication redirect","level":"info","timestamp":"2021-06-24 16:22:39:2239"}
+{"message":"Redirecting to https://localhost:3000/catalog","level":"info","timestamp":"2021-06-24 16:22:39:2239"}
+{"message":"GET /api/auth/cas?redirect=https%3A%2F%2Flocalhost%3A3000%2Fcatalog&ticket=ST-1601011-x--AfjJq5X4oblUWgBaL-hlupvU-vm-cas6prdapp-01 302 104 - 1523.506 ms\n","level":"http","timestamp":"2021-06-24 16:22:39:2239"}
+{"message":"Deserializing user clt38","level":"info","timestamp":"2021-06-24 16:22:41:2241"}
+{"message":"Deserializing user clt38","level":"info","timestamp":"2021-06-24 16:22:41:2241"}
+{"message":"Fetching user's worksheets","level":"info","timestamp":"2021-06-24 16:22:41:2241"}
+{"message":"Getting profile for user clt38","level":"info","timestamp":"2021-06-24 16:22:41:2241"}
+{"message":"Deserializing user clt38","level":"info","timestamp":"2021-06-24 16:22:41:2241"}
+{"message":"Deserializing user clt38","level":"info","timestamp":"2021-06-24 16:22:41:2241"}
+{"message":"Fetching Facebook friends' worksheets","level":"info","timestamp":"2021-06-24 16:22:41:2241"}
+{"message":"Getting user's Facebook ID","level":"info","timestamp":"2021-06-24 16:22:41:2241"}
+{"message":"Getting worksheets for user clt38","level":"info","timestamp":"2021-06-24 16:22:41:2241"}
+{"message":"GET /api/user/worksheets 200 104 - 358.951 ms\n","level":"http","timestamp":"2021-06-24 16:22:41:2241"}
+{"message":"GET /api/facebook/worksheets 401 - - 258.984 ms\n","level":"http","timestamp":"2021-06-24 16:22:41:2241"}
+{"message":"Deserializing user clt38","level":"info","timestamp":"2021-06-24 16:22:41:2241"}
+{"message":"Deserializing user clt38","level":"info","timestamp":"2021-06-24 16:22:41:2241"}
+{"message":"Intercepting with-evals authentication","level":"info","timestamp":"2021-06-24 16:22:41:2241"}
+{"message":"GET /api/static/catalogs/202103.json 200 3530463 - 80.909 ms\n","level":"http","timestamp":"2021-06-24 16:22:42:2242"}
+{"message":"Deserializing user clt38","level":"info","timestamp":"2021-06-24 16:23:02:232"}
+{"message":"Intercepting with-evals authentication","level":"info","timestamp":"2021-06-24 16:23:02:232"}
+{"message":"Deserializing user clt38","level":"info","timestamp":"2021-06-24 16:23:14:2314"}
+{"message":"Intercepting with-evals authentication","level":"info","timestamp":"2021-06-24 16:23:14:2314"}
+{"message":"Deserializing user clt38","level":"info","timestamp":"2021-06-24 16:24:37:2437"}
+{"message":"Intercepting with-evals authentication","level":"info","timestamp":"2021-06-24 16:24:37:2437"}
+{"message":"Deserializing user clt38","level":"info","timestamp":"2021-06-24 16:27:57:2757"}
+{"message":"Deserializing user clt38","level":"info","timestamp":"2021-06-24 16:27:57:2757"}
+{"message":"Toggling course bookmark","level":"info","timestamp":"2021-06-24 16:27:57:2757"}
+{"message":"Bookmarking course 11092 in season 202103 for user clt38","level":"info","timestamp":"2021-06-24 16:27:57:2757"}
+{"message":"POST /api/user/toggleBookmark 200 16 - 178.493 ms\n","level":"http","timestamp":"2021-06-24 16:27:57:2757"}
+{"message":"Deserializing user clt38","level":"info","timestamp":"2021-06-24 16:27:57:2757"}
+{"message":"Deserializing user clt38","level":"info","timestamp":"2021-06-24 16:27:57:2757"}
+{"message":"Fetching user's worksheets","level":"info","timestamp":"2021-06-24 16:27:57:2757"}
+{"message":"Getting profile for user clt38","level":"info","timestamp":"2021-06-24 16:27:57:2757"}
+{"message":"Getting worksheets for user clt38","level":"info","timestamp":"2021-06-24 16:27:57:2757"}
+{"message":"GET /api/user/worksheets 200 122 - 47.021 ms\n","level":"http","timestamp":"2021-06-24 16:27:57:2757"}
+{"message":"Deserializing user clt38","level":"info","timestamp":"2021-06-24 16:28:04:284"}
+{"message":"Deserializing user clt38","level":"info","timestamp":"2021-06-24 16:28:04:284"}
+{"message":"Toggling course bookmark","level":"info","timestamp":"2021-06-24 16:28:04:284"}
+{"message":"Bookmarking course 11090 in season 202103 for user clt38","level":"info","timestamp":"2021-06-24 16:28:04:284"}
+{"message":"POST /api/user/toggleBookmark 200 16 - 46.279 ms\n","level":"http","timestamp":"2021-06-24 16:28:04:284"}
+{"message":"Deserializing user clt38","level":"info","timestamp":"2021-06-24 16:28:04:284"}
+{"message":"Deserializing user clt38","level":"info","timestamp":"2021-06-24 16:28:04:284"}
+{"message":"Fetching user's worksheets","level":"info","timestamp":"2021-06-24 16:28:04:284"}
+{"message":"Getting profile for user clt38","level":"info","timestamp":"2021-06-24 16:28:04:284"}
+{"message":"Getting worksheets for user clt38","level":"info","timestamp":"2021-06-24 16:28:04:284"}
+{"message":"GET /api/user/worksheets 200 141 - 46.453 ms\n","level":"http","timestamp":"2021-06-24 16:28:04:284"}
+{"message":"Deserializing user clt38","level":"info","timestamp":"2021-06-24 16:28:06:286"}
+{"message":"Deserializing user clt38","level":"info","timestamp":"2021-06-24 16:28:06:286"}
+{"message":"Toggling course bookmark","level":"info","timestamp":"2021-06-24 16:28:06:286"}
+{"message":"Bookmarking course 11091 in season 202103 for user clt38","level":"info","timestamp":"2021-06-24 16:28:06:286"}
+{"message":"POST /api/user/toggleBookmark 200 16 - 67.875 ms\n","level":"http","timestamp":"2021-06-24 16:28:06:286"}
+{"message":"Deserializing user clt38","level":"info","timestamp":"2021-06-24 16:28:06:286"}
+{"message":"Deserializing user clt38","level":"info","timestamp":"2021-06-24 16:28:06:286"}
+{"message":"Fetching user's worksheets","level":"info","timestamp":"2021-06-24 16:28:06:286"}
+{"message":"Getting profile for user clt38","level":"info","timestamp":"2021-06-24 16:28:06:286"}
+{"message":"Getting worksheets for user clt38","level":"info","timestamp":"2021-06-24 16:28:06:286"}
+{"message":"GET /api/user/worksheets 200 160 - 31.535 ms\n","level":"http","timestamp":"2021-06-24 16:28:06:286"}
+{"message":"Deserializing user clt38","level":"info","timestamp":"2021-06-24 16:28:10:2810"}
+{"message":"Deserializing user clt38","level":"info","timestamp":"2021-06-24 16:28:10:2810"}
+{"message":"Toggling course bookmark","level":"info","timestamp":"2021-06-24 16:28:10:2810"}
+{"message":"Bookmarking course 11093 in season 202103 for user clt38","level":"info","timestamp":"2021-06-24 16:28:10:2810"}
+{"message":"POST /api/user/toggleBookmark 200 16 - 28.690 ms\n","level":"http","timestamp":"2021-06-24 16:28:10:2810"}
+{"message":"Deserializing user clt38","level":"info","timestamp":"2021-06-24 16:28:10:2810"}
+{"message":"Deserializing user clt38","level":"info","timestamp":"2021-06-24 16:28:10:2810"}
+{"message":"Fetching user's worksheets","level":"info","timestamp":"2021-06-24 16:28:10:2810"}
+{"message":"Getting profile for user clt38","level":"info","timestamp":"2021-06-24 16:28:10:2810"}
+{"message":"Getting worksheets for user clt38","level":"info","timestamp":"2021-06-24 16:28:10:2810"}
+{"message":"GET /api/user/worksheets 200 179 - 73.692 ms\n","level":"http","timestamp":"2021-06-24 16:28:10:2810"}
+{"message":"Deserializing user clt38","level":"info","timestamp":"2021-06-24 16:33:35:3335"}
+{"message":"Deserializing user clt38","level":"info","timestamp":"2021-06-24 16:33:35:3335"}
+{"message":"Deserializing user clt38","level":"info","timestamp":"2021-06-24 16:33:35:3335"}
+{"message":"Deserializing user clt38","level":"info","timestamp":"2021-06-24 16:33:35:3335"}
+{"message":"Fetching user's worksheets","level":"info","timestamp":"2021-06-24 16:33:35:3335"}
+{"message":"Getting profile for user clt38","level":"info","timestamp":"2021-06-24 16:33:35:3335"}
+{"message":"Fetching Facebook friends' worksheets","level":"info","timestamp":"2021-06-24 16:33:35:3335"}
+{"message":"Getting user's Facebook ID","level":"info","timestamp":"2021-06-24 16:33:35:3335"}
+{"message":"Getting worksheets for user clt38","level":"info","timestamp":"2021-06-24 16:33:35:3335"}
+{"message":"GET /api/user/worksheets 200 179 - 102.704 ms\n","level":"http","timestamp":"2021-06-24 16:33:35:3335"}
+{"message":"GET /api/facebook/worksheets 401 - - 96.457 ms\n","level":"http","timestamp":"2021-06-24 16:33:35:3335"}
+{"message":"Deserializing user clt38","level":"info","timestamp":"2021-06-24 16:33:36:3336"}
+{"message":"Deserializing user clt38","level":"info","timestamp":"2021-06-24 16:33:36:3336"}
+{"message":"Intercepting with-evals authentication","level":"info","timestamp":"2021-06-24 16:33:36:3336"}
+{"message":"GET /api/static/catalogs/202103.json 200 3530463 - 75.860 ms\n","level":"http","timestamp":"2021-06-24 16:33:36:3336"}
+{"message":"Deserializing user clt38","level":"info","timestamp":"2021-06-24 16:34:12:3412"}
+{"message":"Deserializing user clt38","level":"info","timestamp":"2021-06-24 16:34:12:3412"}
+{"message":"Deserializing user clt38","level":"info","timestamp":"2021-06-24 16:34:12:3412"}
+{"message":"Fetching user's worksheets","level":"info","timestamp":"2021-06-24 16:34:12:3412"}
+{"message":"Getting profile for user clt38","level":"info","timestamp":"2021-06-24 16:34:12:3412"}
+{"message":"Deserializing user clt38","level":"info","timestamp":"2021-06-24 16:34:12:3412"}
+{"message":"Getting worksheets for user clt38","level":"info","timestamp":"2021-06-24 16:34:12:3412"}
+{"message":"GET /api/user/worksheets 200 179 - 71.685 ms\n","level":"http","timestamp":"2021-06-24 16:34:12:3412"}
+{"message":"Fetching Facebook friends' worksheets","level":"info","timestamp":"2021-06-24 16:34:12:3412"}
+{"message":"Getting user's Facebook ID","level":"info","timestamp":"2021-06-24 16:34:12:3412"}
+{"message":"GET /api/facebook/worksheets 401 - - 88.050 ms\n","level":"http","timestamp":"2021-06-24 16:34:12:3412"}
+{"message":"Deserializing user clt38","level":"info","timestamp":"2021-06-24 16:34:12:3412"}
+{"message":"Deserializing user clt38","level":"info","timestamp":"2021-06-24 16:34:12:3412"}
+{"message":"Intercepting with-evals authentication","level":"info","timestamp":"2021-06-24 16:34:12:3412"}
+{"message":"GET /api/static/catalogs/202103.json 200 3530463 - 27.762 ms\n","level":"http","timestamp":"2021-06-24 16:34:12:3412"}
+{"message":"Deserializing user clt38","level":"info","timestamp":"2021-06-24 16:35:02:352"}
+{"message":"Deserializing user clt38","level":"info","timestamp":"2021-06-24 16:35:03:353"}
+{"message":"Fetching user's worksheets","level":"info","timestamp":"2021-06-24 16:35:03:353"}
+{"message":"Getting profile for user clt38","level":"info","timestamp":"2021-06-24 16:35:03:353"}
+{"message":"Getting worksheets for user clt38","level":"info","timestamp":"2021-06-24 16:35:03:353"}
+{"message":"GET /api/user/worksheets 200 179 - 94.889 ms\n","level":"http","timestamp":"2021-06-24 16:35:03:353"}
+{"message":"Deserializing user clt38","level":"info","timestamp":"2021-06-24 16:35:03:353"}
+{"message":"Deserializing user clt38","level":"info","timestamp":"2021-06-24 16:35:03:353"}
+{"message":"Fetching Facebook friends' worksheets","level":"info","timestamp":"2021-06-24 16:35:03:353"}
+{"message":"Getting user's Facebook ID","level":"info","timestamp":"2021-06-24 16:35:03:353"}
+{"message":"GET /api/facebook/worksheets 401 - - 59.056 ms\n","level":"http","timestamp":"2021-06-24 16:35:03:353"}
+{"message":"Deserializing user clt38","level":"info","timestamp":"2021-06-24 16:35:03:353"}
+{"message":"Deserializing user clt38","level":"info","timestamp":"2021-06-24 16:35:03:353"}
+{"message":"Intercepting with-evals authentication","level":"info","timestamp":"2021-06-24 16:35:03:353"}
+{"message":"GET /api/static/catalogs/202103.json 200 3530463 - 87.921 ms\n","level":"http","timestamp":"2021-06-24 16:35:03:353"}
+{"message":"Deserializing user clt38","level":"info","timestamp":"2021-06-24 16:38:06:386"}
+{"message":"Deserializing user clt38","level":"info","timestamp":"2021-06-24 16:38:06:386"}
+{"message":"Fetching user's worksheets","level":"info","timestamp":"2021-06-24 16:38:06:386"}
+{"message":"Getting profile for user clt38","level":"info","timestamp":"2021-06-24 16:38:06:386"}
+{"message":"Getting worksheets for user clt38","level":"info","timestamp":"2021-06-24 16:38:06:386"}
+{"message":"GET /api/user/worksheets 200 179 - 84.745 ms\n","level":"http","timestamp":"2021-06-24 16:38:06:386"}
+{"message":"Deserializing user clt38","level":"info","timestamp":"2021-06-24 16:38:06:386"}
+{"message":"Deserializing user clt38","level":"info","timestamp":"2021-06-24 16:38:06:386"}
+{"message":"Fetching Facebook friends' worksheets","level":"info","timestamp":"2021-06-24 16:38:06:386"}
+{"message":"Getting user's Facebook ID","level":"info","timestamp":"2021-06-24 16:38:06:386"}
+{"message":"GET /api/facebook/worksheets 401 - - 54.972 ms\n","level":"http","timestamp":"2021-06-24 16:38:06:386"}
+{"message":"Deserializing user clt38","level":"info","timestamp":"2021-06-24 16:38:06:386"}
+{"message":"Deserializing user clt38","level":"info","timestamp":"2021-06-24 16:38:06:386"}
+{"message":"Intercepting with-evals authentication","level":"info","timestamp":"2021-06-24 16:38:06:386"}
+{"message":"GET /api/static/catalogs/202103.json 200 3530463 - 59.758 ms\n","level":"http","timestamp":"2021-06-24 16:38:06:386"}
